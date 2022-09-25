@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+      <title>Curriculum Vitae</title>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://inkusu.github.io/curriculum-vitae/print.css" media="print">
+      <link rel="stylesheet" href="https://inkusu.github.io/curriculum-vitae/poole.css">
+      <link rel="stylesheet" href="https://inkusu.github.io/curriculum-vitae/hyde.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+      
+
+      
+      
+    </head>
+
+    <body class=" ">
+        
+            <div class="sidebar">
+                <div class="container sidebar-sticky">
+                    <div class="sidebar-about">
+                        
+                            <a href="https:&#x2F;&#x2F;inkusu.github.io&#x2F;curriculum-vitae&#x2F;"><h1>Curriculum Vitae</h1></a>
+                            
+                        
+                    </div>
+
+                    <ul class="sidebar-nav">
+                        
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;inkusu">GitHub</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;lnkusu1">Twitter</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;qiita.com&#x2F;lnkusu">Qiita</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;opencollective.com&#x2F;yutaka-wakai&#x2F;recurring-contributions">opencollective</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="content container">
+            
+<div class="post">
+  <h1 class="post-title">Lnkusu</h1>
+  <span class="post-date">2021-03-16</span>
+  <h2 id="zhi-wu-yao-yue">職務要約</h2>
+<p>実務では、多くて3人での開発経験があります。Backend開発をメインに4年ほど行ってきました。 社内開発体験の向上を目的に、インフラ管理・改善・ローカル開発体験の向上を行ってきました。</p>
+<p>それから社内ツール開発にも関わり、主に1人でGoogle Workspace・GCP環境を想定した業務改善ツールの開発・AIアプリケーションの構築・PWAアプリケーションのインフラ・バックエンド・フロントエンド開発を行ってきました。</p>
+<p>また、社内エンジニアへの情報共有・勉強会として、Google・GitHubのカンファレンスを中心に内容を啓蒙し開発者の体験向上に勤めました。</p>
+<h2 id="sukiru">スキル</h2>
+<ul>
+<li>Language
+<ul>
+<li>PHP/AS3/GO/TS/Scala/Python/HTML/CSS/Rust/Java</li>
+</ul>
+</li>
+<li>Frontend
+<ul>
+<li>Vue/Nuxt/Next/React/</li>
+</ul>
+</li>
+<li>Backend 
+<ul>
+<li>Symphony/Koa/Express/Fast API/Flask/Echo/Rocket</li>
+</ul>
+</li>
+<li>Testing
+<ul>
+<li>PHPUnit/Nightwatch/Jest/Go Unit Test/Rust Unit Test/Puppeteer</li>
+</ul>
+</li>
+<li>Database
+<ul>
+<li>MySQL/PostgreSQL/</li>
+</ul>
+</li>
+<li>Infrastructure
+<ul>
+<li>GCP</li>
+</ul>
+</li>
+<li>Communication tools
+<ul>
+<li>Github</li>
+</ul>
+</li>
+<li>SaaS
+<ul>
+<li>Circle/GH Action/Bitbucket Pipeline</li>
+</ul>
+</li>
+<li>Development framework
+<ul>
+<li>Agile, Scrum, Waterfal</li>
+</ul>
+</li>
+<li>BI Tool
+<ul>
+<li>Tableau</li>
+</ul>
+</li>
+</ul>
+<p><code>*</code> は社内ツール開発で使用したスキルです。</p>
+<h2 id="gai-shan">改善</h2>
+<p><em>役割</em>: 社内レガシー環境の改善1<br />
+<em>技術環境</em>: Gitの導入<br />
+<em>入社一年目</em></p>
+<p>コードの管理がZIPでの受け渡し。</p>
+<p>バージョン管理システムの導入。社内VPSサーバ上にGitサーバを構築。IP制限とHTTPSでセキュリティを担保。他エンジニアメンバーのの学習難易度を下げるため、
+clone commit push のコマンドだけを指示し、コンフリクトとリポジトリの作成などは全てこちら側で負担。
+無事社内標準の開発環境の一つとなり、ホスティングサービスの契約に至った。</p>
+<hr />
+<p><em>役割</em>: 社内レガシー環境の改善2 
+<em>技術環境</em>: 開発環境の整合性担保<br />
+<em>入社一年目</em></p>
+<p>ローカルの環境差異による開発効率の改善</p>
+<p>Vagrant+ansibleの構成管理を作成 osイメージは複数用意し、社内での想定される環境に対応できるよう改善を行った</p>
+<hr />
+<p><em>役割</em>: 社内レガシー環境の改善3<br />
+<em>技術環境</em>: VagrantからDocker SEへの移行<br />
+<em>入社一年目</em></p>
+<p>Vagrant構成では、アプリケーションの起動と編集ファイルの同期に時間がかかりコードの編集効率があまりよくなかった。Dockerに開発環境を移行することにより、開発者間での
+環境の違いを吸収しつつ、コードの編集体験も向上させることができた。</p>
+<hr />
+<p><em>役割</em>: 社内レガシー環境の改善3<br />
+<em>技術環境</em>: ステージング環境の改善<br />
+<em>入社一年目</em></p>
+<p>社内ステージング環境は一台のVPSサーバに、仮想ホストを割り当て複数サイトを管理する構成であった。そのため、PHPのバージョンは常に固定され、ホストOS側でモジュール・ライブラリの管理を行う必要があった</p>
+<p>ステージング環境にも、Dockerを導入し、Nginx Proxy + Docker構成にすることにより、ローカル開発と本番環境との環境の違いを吸収し、本番公開時のサーバ環境の違いによる動作不良を少なくすることができた。 </p>
+<hr />
+<p><em>役割</em>: 社内レガシー環境の改善4<br />
+<em>技術環境</em>: ステージング環境構築の自動化<br />
+<em>入社一年目</em></p>
+<p>ステージング環境の構築は手動で行われていたため、特定のエンジニアに対応を依頼する必要があった。</p>
+<p>Slack Botからステージング環境を構成できるフォームを用意し、Slackに参加しているメンバー全員が任意のタイミングでステージング環境を用意できるように対応した。</p>
+<hr />
+<h2 id="chang-suo-qiang-mi">長所 / 強み</h2>
+<h2 id="jing-yan-nonaikoto">経験のないこと</h2>
+<h2 id="personal-project">Personal Project</h2>
+<h2 id="xing-wei-guan-xin">興味 / 関心</h2>
+<p>OSS文化に興味があり、技術選択・習得・解決に関しては、コントリビュータとコミュニケーションを図ったり、日本語翻訳を行ったりしています。</p>
+<p>情報処理全般とアーキテクトに興味があります。最近はoreilly safariを年間契約し、日々本や動画を見て知識を深めています。</p>
+
+</div>
+
+        </div>
+
+    </body>
+
+</html>
